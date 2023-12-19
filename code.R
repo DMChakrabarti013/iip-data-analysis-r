@@ -11,7 +11,7 @@ library(tseries)
 library(fUnitRoots)
 library(dynlm)
 
-iip_data <- read.csv('/Users/dwaipayanchakrabarti/Desktop/Krishnendu Mama/iip_data.csv', header = TRUE)
+iip_data <- read.csv('[Enter file address here]', header = TRUE)
 gdp_data <- ts(iip_data$gdp, start = c(1996, 1), frequency = 4)
 mining_data <- ts(iip_data$mining, start = c(1996, 1), frequency = 4)
 manufacturing_data <- ts(iip_data$manufacturing, start = c(1996, 1), frequency = 4)
