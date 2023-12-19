@@ -2,6 +2,8 @@
 ## Overview
 This R script analyzes the Index of Industrial Production (IIP) data using time series and regression models. The dataset includes various economic indicators such as GDP, mining, manufacturing, electricity, general IIP, inflation, exports, imports, and GDP per capita.
 
+A dataset has been uploaded as an example.
+
 ## Libraries
 Install and load the required R libraries.
 ```
